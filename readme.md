@@ -1,5 +1,6 @@
 # download SAP note using golang
 
+## Download SAP node need the Mutual authentication
 
 ## make the ca files use the personal 
 
@@ -12,8 +13,6 @@ openssl pkcs12 -in SID.pfx -clcerts -nokeys -out CLIENT_CERT.PEM
 openssl pkcs12 -in SID.pfx -nocerts -nodes -out CLIENT_CERT_KEY.PEM
 openssl pkcs12 -in SID.pfx -cacerts -nokeys -out CA_CERT.PEM
 ```
-
-## Download SAP node need the Mutual authentication
 
 
 
